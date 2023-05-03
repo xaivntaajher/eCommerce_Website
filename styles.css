@@ -23,6 +23,7 @@ h1 {
 
 .product-title {
     border-bottom: 3px solid black;
+    width: 200px;
 }
 
 .product-img {
@@ -30,8 +31,14 @@ h1 {
     object-fit: cover;
 }
 
-.container {
+.container-1 {
     display: flex;
     justify-content: space-evenly;
     align-content: end;
+}
+
+.container-2 {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
 }
