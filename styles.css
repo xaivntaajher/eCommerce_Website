@@ -9,12 +9,20 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #FFFFFF;
+}
+
+body{
+    font-family: 'Segoe UI';
 }
 
 h1 {
     border-bottom: 3px solid black;
 }
 
+footer {
+    background-color: #bf7631;
+}
 .product-container {
     display: flex;
     width: 300px;
@@ -41,4 +49,14 @@ h1 {
     display: flex;
     width: 300px;
     justify-content: space-between;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
 }
