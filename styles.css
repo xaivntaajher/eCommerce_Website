@@ -74,6 +74,12 @@ footer {
     object-fit: cover;
 }
 
+.about-img-2 {
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    margin-top: 10px;
+}
 .product-img {
     width: 300px;
     height: 300px;
